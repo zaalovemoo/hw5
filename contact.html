@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Contact - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient">
+        <div class="container"><a class="navbar-brand logo" href="#">Billy</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+                <ul class="nav navbar-nav ml-auto"></ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page contact-page">
+        <section class="portfolio-block contact">
+         
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card border-info mb-3">
+                    <div class="card-header">
+                        <h3 class="card-title">Contact Me</h3>
+                    </div>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="">Firstname</label>
+                                <input type="text" id="Firstname" class="form-control" placeholder="Firstname...">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Lastname</label>
+                                <input type="text" id="Lastname" class="form-control" placeholder="Lastname...">
+                            </div>
+                            <div class="form-group" id="myRadio">
+                                <label for="">Gender</label><br>
+                                <input type="radio"   name="gender" value="Male">Male <br>
+                                <input type="radio"   name="gender" value="Female">Female <br>
+                                <input type="radio"   name="gender" value="Others">Others <br>
+
+                            </div>
+                            <div class="form-group">
+                                <label for="">Email</label>
+                                <input type="email" id="Email" class="form-control" placeholder="someone@example.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Detail</label>
+                                <textarea type="textbox" id="Detail" class="form-control" placeholder="Anything that I should know"></textarea>
+                            </div>
+                            
+                        </form>
+                        <button id="pass" class="btn btn-primary btn-flat">Save</button>
+                        <button id="reset" class="btn btn-primary btn-flat">Clear</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card text-dark bg-white mb-3">
+                    <div class="card-header">
+                        <h3 class="card-title">My Contact List</h3>
+                    </div>
+                    <div class="card-body">
+                        <table class="table text-dark">
+                            <thead>
+                                <tr>
+                                    <th>Firstname</th>
+                                    <th>Lastname</th>
+                                    <th>Gender</th>
+                                    <th>Email</th>
+                                    <th>Detail</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-footer">
+                        <h4 id="gpatotal"></h4>
+                        <h4 id="gpatotal_letter"></h4>
+
+                    </div>
+                </div>
+                <div id="donutchart" style="width: 740px; height: 500px; ">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.7.0/firebase-firestore.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src = "./assets/js/contact.js"></script>
+</body>
+
+</html>
