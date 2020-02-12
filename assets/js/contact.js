@@ -1,7 +1,7 @@
 let firebaseConfig = {
-    apiKey: "AIzaSyClRj8sGJPh8eDCUNsmK47qf99HiTEXkAs",
-    authDomain: "cpelab5.firebaseapp.com",
-    projectId: "cpelab5",
+    apiKey: "AIzaSyBuGlNW59BCtKQ-hPD4vy9WbUhw9a8jo3g",
+    authDomain: "qweqweqweqsad-5a9ef.firebaseapp.com",
+    projectId: "qweqweqweqsad-5a9ef",
 };
 
 
